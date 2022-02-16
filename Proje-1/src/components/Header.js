@@ -5,7 +5,7 @@ import React,{memo} from 'react'
 const Header = ({length}) => {
     return(
         <View style = {styles.header}>
-            <Text style = {styles.title}>Tasks</Text>
+            <Text style = {styles.title}>Yapılacaklar</Text>
             <Text style = {styles.counter}>{length}</Text>
         </View>
     )
@@ -27,7 +27,7 @@ title: {
     fontWeight: 'bold',
 },
 counter:{
-    color: '#000000',
+    color: 'orange',
     fontWeight: '500',
     fontSize:18
 }
